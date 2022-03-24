@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Latihan Bootstrap</title>
+
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+
+      <nav class="navbar navbar-inverse">
+
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#target-list">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">codingmudah</a>
+         </div>
+
+         <div class="collapse navbar-collapse" id="target-list">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="#">home</a></li>
+               <li><a href="#">kelas</a></li>
+               <li><a href="#">forum</a></li>
+            </ul>
+
+            <form role="search" class="navbar-form navbar-right">
+               <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Cari...">
+                  <button type="submit" class="btn btn-primary">Cari</button>
+               </div>
+            </form>
+         </div>
+
+      </nav>
+
+      <div class="container">
+
+         <h1>Hello Kamil</h1>
+
+         <!-- start jumbotron -->
+         <div class="jumbotron">
+            <h1>Selamat datang di codingitumudahbukan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam cum facere reiciendis, voluptas mollitia architecto! Aliquid, nihil asperiores. Alias eaque sunt cum nulla neque et eius ea, hic corporis!</p>
+            <a href="#" class="btn btn-success btn-lg" role="button">Lihat Kelas!</a>
+         </div>
+         <!-- akhir jumbotron -->
+
+         <!-- start thumbnails -->
+         <div class="row">
+
+            <div class="col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="img/laptopp.jpg" alt="">
+                  <div class="caption">
+                     <h3>Belajar HTML</h3>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, tempora, facere animi aut consequuntur quod, sequi nulla officia quisquam similique non sit! Ullam iusto quisquam asperiores aliquam impedit perferendis dolorem.</P>
+                     <a href="#" class="btn btn-primary">Lihat Sekarang!</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="img/laptopp.jpg" alt="">
+                  <div class="caption">
+                     <h3>Belajar HTML</h3>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, tempora, facere animi aut consequuntur quod, sequi nulla officia quisquam similique non sit! Ullam iusto quisquam asperiores aliquam impedit perferendis dolorem.</P>
+                     <a href="#" class="btn btn-primary">Lihat Sekarang!</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="img/laptopp.jpg" alt="">
+                  <div class="caption">
+                     <h3>Belajar HTML</h3>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, tempora, facere animi aut consequuntur quod, sequi nulla officia quisquam similique non sit! Ullam iusto quisquam asperiores aliquam impedit perferendis dolorem.</P>
+                     <a href="#" class="btn btn-primary">Lihat Sekarang!</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <!-- akhir thumbnails -->
+
+         <!-- start alert, tabs & embed -->
+         <div class="alert alert-success" role="alert">
+            Lihat Sekarang kelas codingitumudahbukan
+         </div>
+
+         <div class="row">
+
+            <div class="col-md-6">
+
+               <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active">
+                     <a href="#home" aria-controller="home" role="tab" data-toggle="tab"> Home </a>
+                  </li>
+
+                  <li role="presentation">
+                     <a href="#forum" aria-controller="forum" role="tab" data-toggle="tab"> Home </a>
+                  </li>
+               </ul>
+
+               <div class="tab-content">
+                  <div class="tab-pane active" role="tabpanel" id="home">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam quas blanditiis cupiditate molestiae omnis vitae, ratione laboriosam aperiam velit explicabo. Quod explicabo ipsa minima, commodi eum non laborum aperiam.
+                  </div>
+
+                  <div class="tab-pane" role="tabpanel" id="forum">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam quas blanditiis cupiditate molestiae omnis vitae, ratione laboriosam aperiam velit explicabo. Quod explicabo ipsa minima, commodi eum non laborum aperiam.
+                  </div>
+               </div>
+
+            </div><br>
+
+            <div class="col-md-6">
+               <div class="embed-reponsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width="100%" height="400" src="https://www.youtube.com/embed/G-Cr00UYokU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+
+         </div>
+         <!-- akhir alert, tabs & embed -->
+
+      </div>
+      <br><br><br>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
